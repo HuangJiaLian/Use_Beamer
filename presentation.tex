@@ -1,0 +1,65 @@
+\documentclass{beamer}
+\usepackage{graphics}
+\title{Slide show in {\LaTeX} with beamer}
+\author{Jie Huang}
+%　Change the
+\usetheme{Frankfurt}
+\definecolor{mygreen}{rgb}{.125,.5,.25}
+\usecolortheme[named=mygreen]{structure}
+
+% Add page number
+\setbeamertemplate{sidebar right}{}
+\setbeamertemplate{footline}{%
+	\hfill\usebeamertemplate***{navigation symbols}
+	\hspace{1cm}\insertframenumber{}/\inserttotalframenumber}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\begin{frame}
+\frametitle{Roadmap}
+\begin{itemize}
+\item Frames \pause
+\item Beamer Theme \pause
+\item Pauses and slides \pause
+\item Sections \pause
+\item Images \pause
+\item Columns 
+\end{itemize}
+\end{frame}
+
+\section{Dataffff}
+\begin{frame}
+\frametitle{dah dah dah}
+asdfscacfsacf 
+\end{frame}
+
+\section{Hello}
+\begin{frame}
+	\frametitle{Sections}
+	Blablabla
+\end{frame}
+
+
+\section{Images}
+\begin{frame}
+	\frametitle{Images in Beamer}
+	adfadsfasdfafkllkj
+	\includegraphics[height=.75\textheight]{./loss_changes_less.eps}
+\end{frame}
+
+
+\section{Columns}
+\begin{frame}
+\begin{columns}
+
+
+\column{.5\textwidth}
+fasfasdf asdfasdfasdf d asdf adsf wefas dfasdf asdfa sdfa sdfasffas dfasdfasf a
+
+\column{.5\textwidth}
+fasfasd fwefasd asdfdfasdf adfasdf  fas  afasdf df asdfasf
+\end{columns}
+\end{frame}
+\end{document}
